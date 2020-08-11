@@ -1,2 +1,0 @@
-# responsivepage
-A responsive webpage
