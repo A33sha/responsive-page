@@ -1,0 +1,121 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+section{
+	font-family: Monospace;
+	border: 1px solid black;
+	background-color: lightgrey;
+	margin: 15px;
+	width: 30%;
+	height: 250px;
+	float: left;	
+}
+h2{
+	margin: auto;
+	font-size: medium;
+}
+p{
+	text-align: justify;
+	line-height: 20px;
+}
+
+#first-title{
+	background-color: #ffb3b3;
+}
+#second-title{
+	background-color: #ffa64d;
+}
+
+#third-title{
+	background-color: #ffffe6;
+}
+.content{
+	clear: both;
+	margin: 15px 5px;
+	padding: 10px;
+	font-size: 15px;
+}
+.title{
+	margin: 0px;
+	background-color: lightgrey;
+	width: 130px;
+	padding: 1px;
+	font-weight: 600;
+	font-size: 16px;
+	position: relative;
+	top: 0;
+	float: right;
+	text-align: center;
+	border: 1px solid black;
+	
+}
+h1{
+	color: pink;
+	font-size: 40px;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 10px;
+}
+h2{
+	font-weight: 400;
+	text-align: center;
+margin: auto;
+color: grey;
+margin-bottom: 7px;
+}
+nav{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 10px;
+}
+a{
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	font-weight: 500;
+	width: 100%;
+	color: Grey;
+	padding-right: 10px;
+}
+footer{
+	background-color: black;
+	height: 30%;
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+	padding: 10px;
+	clear: both;
+}
+#social{
+	text-align: center;
+	margin: 10px ;
+	padding: 0 10px;
+}
+em{
+	color: grey;
+	text-align: center;
+	padding-top: 15px;
+}
+@media screen and (max-width: 767px) {
+	section{
+		width: 80%;
+		float: none;
+		margin: 20px auto;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 991px)
+{
+	.first-section, .second-section{
+		width: 46%;
+		margin: 15px;
+	}
+	.third-section{
+		width: 95%;
+		margin: auto;
+		float: none;
+		clear: both;
+	}
+}
